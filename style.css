@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#generator {
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+}
+#generator .quotes {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    font-style: italic;
+}
+#generator .quote {
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+}
+#generator #generate-button {
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background: pink;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#generator #generate-button:hover {
+    background-color: #e9aeb8;
+}
